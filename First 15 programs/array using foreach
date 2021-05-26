@@ -1,0 +1,11 @@
+class Arrayforeach
+{
+public static void main(String args[])
+{
+int[] n={3,8,6,1};
+for (int number:n)
+{
+System.out.println(number);
+}
+}
+}
