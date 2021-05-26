@@ -1,0 +1,27 @@
+class Check
+{
+public static void main(String args[])
+{
+int m=42;
+String s;
+switch (m)
+{
+case 29:
+    s="Small";
+    break;
+case 42:
+    s="Medium";
+    break;
+case 44:
+    s="Large";
+    break;
+case 48:
+    s="Extra Large";
+    break;
+default:
+   s="unknown";
+   break;
+}
+System.out.println("Size: "+s);
+}
+}
