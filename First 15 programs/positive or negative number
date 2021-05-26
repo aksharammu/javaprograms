@@ -1,0 +1,15 @@
+public class Number
+{
+public static void main(String args[])
+{
+int m=-3;
+if(m>0)
+{
+System.out.println(m+"is positive number");
+}
+else
+{
+System.out.println(m+"is negative number");
+}
+}
+}
