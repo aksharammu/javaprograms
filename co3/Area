@@ -1,0 +1,22 @@
+class over
+{
+    void area(int x)
+    {
+        System.out.println("Area of square is : "+(x*x));
+    }
+    void area(int l,int b)
+    {
+        System.out.println("Area of rectangle : "+(l*b));
+     }
+     
+}
+class Areaoverload
+{
+    public static void main(String args[]) 
+{
+        over O=new over();
+        O.area(6);
+        O.area(3,5);
+    
+    }
+}
